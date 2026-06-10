@@ -1,6 +1,6 @@
 cask "johnny-castaway-saver" do
-  version "0.2.0"
-  sha256 "da1d8b714da51a4aa0f1d817366029fb973ccd00b0c991b6df6f907e696c6351"
+  version "0.2.1"
+  sha256 "9d95a87f121b9c3f8c58fb509a32bc379cb64e024d5c03fcd05ebb0f75738dd4"
 
   url "https://github.com/d4rkwyng/johnny-castaway-mac/releases/download/v#{version}/JohnnyCastaway-saver-v#{version}.zip"
   name "Johnny Castaway Screensaver"
