@@ -7,7 +7,7 @@ cask "johnny-castaway" do
   desc "Native recreation of the classic 1992 Sierra/Dynamix screensaver"
   homepage "https://github.com/d4rkwyng/johnny-castaway-mac"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Johnny Castaway.app"
   screen_saver "JohnnyCastaway.saver"
