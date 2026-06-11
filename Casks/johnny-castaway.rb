@@ -1,6 +1,6 @@
 cask "johnny-castaway" do
-  version "0.2.2"
-  sha256 "63b7850b7844c5ea492143a8f1f591f5ef2d6f8dc5e228963a38de4672b1f6bc"
+  version "0.2.3"
+  sha256 "af765a0ee11b4b91719796dcc39cdf8731394254057d5bff13cb7968df3633db"
 
   url "https://github.com/d4rkwyng/johnny-castaway-mac/releases/download/v#{version}/JohnnyCastaway-v#{version}.zip"
   name "Johnny Castaway"
