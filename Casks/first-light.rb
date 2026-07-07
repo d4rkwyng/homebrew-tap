@@ -7,7 +7,7 @@ cask "first-light" do
   desc "Living Apple-1 — the 1976 machine chip-by-chip, with real emulation"
   homepage "https://github.com/d4rkwyng/first-light"
 
-  depends_on macos: :sequoia
+  depends_on macos: ">= :sequoia"
 
   app "First Light.app"
 
