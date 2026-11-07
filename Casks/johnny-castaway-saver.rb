@@ -7,9 +7,15 @@ cask "johnny-castaway-saver" do
   desc "Native recreation of the classic 1992 Sierra/Dynamix screensaver"
   homepage "https://github.com/d4rkwyng/johnny-castaway-mac"
 
+  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   screen_saver "JohnnyCastaway.saver"
+
+  zap trash: [
+    "~/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver/Data/Library/Application Support/JohnnyCastaway",
+    "~/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver/Data/Library/Preferences/ByHost/net.cyduck.JohnnyCastaway.*.plist",
+  ]
 
   caveats <<~EOS
     This cask installs only the screensaver. For the easiest setup,

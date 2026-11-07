@@ -7,10 +7,19 @@ cask "johnny-castaway" do
   desc "Native recreation of the classic 1992 Sierra/Dynamix screensaver"
   homepage "https://github.com/d4rkwyng/johnny-castaway-mac"
 
+  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "Johnny Castaway.app"
   screen_saver "JohnnyCastaway.saver"
+
+  zap trash: [
+    "~/Library/Application Support/JohnnyCastaway",
+    "~/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver/Data/Library/Application Support/JohnnyCastaway",
+    "~/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver/Data/Library/Preferences/ByHost/net.cyduck.JohnnyCastaway.*.plist",
+    "~/Library/Preferences/net.cyduck.JohnnyCastaway.app.plist",
+    "~/Library/Saved Application State/net.cyduck.JohnnyCastaway.app.savedState",
+  ]
 
   caveats <<~EOS
     Johnny needs the original game's RESOURCE.MAP / RESOURCE.001 files,
