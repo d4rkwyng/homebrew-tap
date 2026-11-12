@@ -7,6 +7,7 @@ cask "johnny-castaway" do
   desc "Native recreation of the classic 1992 Sierra/Dynamix screensaver"
   homepage "https://github.com/d4rkwyng/johnny-castaway-mac"
 
+  conflicts_with cask: "johnny-castaway-saver"
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
