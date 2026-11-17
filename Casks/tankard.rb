@@ -1,6 +1,6 @@
 cask "tankard" do
-  version "0.2.0"
-  sha256 "11a8079c8a6e3086131f9dba5c0fed50ba8ccb9cd078f8ce430668cae331195a"
+  version "0.3.0"
+  sha256 "53fe58927a7b3ec91c18a7ee089ab39aaa603541db743cc0c6abe0a54b148dcf"
 
   url "https://github.com/d4rkwyng/tankard/releases/download/v#{version}/Tankard.zip"
   name "Tankard"
