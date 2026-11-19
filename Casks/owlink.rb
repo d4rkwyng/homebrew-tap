@@ -1,6 +1,6 @@
 cask "owlink" do
-  version "0.1.2"
-  sha256 "538a23becbce3ee497ee96867ab148fcd8c06a50b7e7c3bd6222174e5c0a45f8"
+  version "0.2.0"
+  sha256 "16bda89e752defabff68570660257e8f27b34837402870539eb91bcef493feea"
 
   url "https://github.com/d4rkwyng/owlink/releases/download/v#{version}/OwlInk-#{version}.zip"
   name "OwlInk"
