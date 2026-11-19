@@ -1,6 +1,6 @@
 cask "cedric-pad" do
-  version "0.1.0"
-  sha256 "b5a0572ec4ecaf64906695704845356d944eb8fd68d7d5a00c4b9f5ae6922de5"
+  version "0.1.1"
+  sha256 "69e05a2ba0a27c561640c0a33cf957e1a4b4cbd1ba17560fd60560a679d665d2"
 
   url "https://github.com/d4rkwyng/cedric-pad/releases/download/v#{version}/Cedric-Pad-#{version}.zip"
   name "Cedric Pad"
