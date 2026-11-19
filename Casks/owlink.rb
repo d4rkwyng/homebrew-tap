@@ -1,17 +1,16 @@
 cask "owlink" do
-  version "0.1.1"
-  sha256 "69e05a2ba0a27c561640c0a33cf957e1a4b4cbd1ba17560fd60560a679d665d2"
+  version "0.1.2"
+  sha256 "538a23becbce3ee497ee96867ab148fcd8c06a50b7e7c3bd6222174e5c0a45f8"
 
-  url "https://github.com/d4rkwyng/owlink/releases/download/v#{version}/Cedric-Pad-#{version}.zip"
+  url "https://github.com/d4rkwyng/owlink/releases/download/v#{version}/OwlInk-#{version}.zip"
   name "OwlInk"
   desc "Fast, simple native text editor"
   homepage "https://github.com/d4rkwyng/owlink"
 
   depends_on macos: :sonoma
 
-  # 0.1.1 still ships as "Cedric Pad.app"; 0.2.0 renames the app to OwlInk.app
-  app "Cedric Pad.app"
-  binary "#{appdir}/Cedric Pad.app/Contents/Resources/cedric"
+  app "OwlInk.app"
+  binary "#{appdir}/OwlInk.app/Contents/Resources/cedric"
 
   zap trash: [
     "~/Library/Application Support/Cedric",
