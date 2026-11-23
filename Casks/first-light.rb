@@ -1,6 +1,6 @@
 cask "first-light" do
-  version "1.0.0"
-  sha256 "4bd94feaee9c7825313798e51b527c5971a103ef7ba71b8e9758479966f12877"
+  version "1.0.1"
+  sha256 "6f20bddd6ff448e70bca05f719716ce7798209c84fbb821758c9c9130f561a1a"
 
   url "https://github.com/d4rkwyng/first-light/releases/download/v#{version}/First-Light-#{version}.zip"
   name "First Light"
